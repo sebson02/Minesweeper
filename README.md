@@ -1,4 +1,4 @@
-
+    PL
     ----------
       README
     ----------
@@ -59,4 +59,67 @@
     Powodzenia!
 
     Projekt wykonany przez Sebastian Chęć
+
+
+
+    EN
+    
+    ----------
+      README
+    ----------
+
+    Welcome to Minesweeper!
+
+    The goal of the game is to flag all the bombs. If you flag them all correctly, you win!
+    Each tile that is not a bomb will display the number of bombs surrounding it. Be careful not to uncover a tile
+    with a bomb, or you will lose!
+
+    Upon starting the program, the menu will display three options, allowing you to select your preferred game difficulty:
+    - At the beginner level, you will play on a board with:
+        - 10 columns
+        - 10 rows
+        - 10 bombs
+    - At the advanced level, you will play on a board with:
+        - 16 columns
+        - 16 rows
+        - 40 bombs
+    - At the expert level, you will play on a board with:
+        - 30 columns
+        - 16 rows
+        - 99 bombs
+    Make your selection using the up/down arrow keys, and confirm it by pressing ENTER.
+
+    Gameplay:
+    After selecting the difficulty level, the game board will be displayed. Initially, all tiles will be covered and shown as
+    dots. Choose a tile and uncover it.
+
+    Don’t worry if the first tile you uncover happens to be a bomb. In every game of Minesweeper, you will have to take
+    risks at different stages!
+
+    Keep uncovering tiles and, based on their values, determine where bombs might be. Place flags on the tiles you suspect to
+    be bombs. When you have flagged the number of tiles surrounding a particular tile equal to the number of bombs it
+    indicates, you can check if     your flags are placed correctly. Do this by pressing ENTER to uncover all unflagged
+    tiles around it. Be cautious! If any of your flags are placed incorrectly, you will lose!
+
+    You will win automatically if you correctly flag all the bombs. But don't try to outsmart the game by flagging all
+    the tiles; such tricks won’t work. The number of flagged tiles must match the number of bombs on the board.
+
+    Controls:
+    - Move to a tile:                                   Arrow keys (up/down/left/right)
+    - Uncover a tile:                                   ENTER
+    - Check flags around a revealed tile:               ENTER
+    - Place a flag:                                     F key
+    - Exit the game:                                    ESC key
+
+    Board indicators:
+    - Covered tile:                                     .
+    - Uncovered tile:                                   A number between 0-8
+    - Bomb:                                             X
+    - Flagged tile:                                     F
+    - Currently selected tile/menu option:             Highlighted
+
+    Good luck!
+
+    Project created by Sebastian Chęć
+ 
  
